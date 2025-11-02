@@ -1,0 +1,25 @@
+[project]
+name = "mirag"
+version = "0.1.0"
+description = "Multi-Index Router RAG (docs + tables + code + PDFs) using Groq + uv"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "groq",
+  "python-dotenv",
+  "fastapi",
+  "uvicorn",
+  "pydantic>=2",
+  "duckdb",
+  "sentence-transformers",
+  "faiss-cpu",
+  "pypdf",
+  "beautifulsoup4",
+  "lxml",
+  "rapidfuzz",
+  "tqdm",
+  "streamlit",
+  "requests",
+]
+
+[tool.uv]

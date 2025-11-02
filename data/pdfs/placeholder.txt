@@ -1,0 +1,1 @@
+This folder is for PDFs. Add some text-extractable PDFs here for the PDF route.

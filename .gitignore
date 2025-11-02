@@ -1,0 +1,28 @@
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+dist/
+build/
+
+# Envs & secrets
+.venv/
+.env
+.env.*
+
+# Streamlit cache
+.streamlit/
+
+# Optional: big raw data you don’t want in git
+data/pdfs/*
+!data/pdfs/placeholder.txt
+
+# Logs
+*.log
